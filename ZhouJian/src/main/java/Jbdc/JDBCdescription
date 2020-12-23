@@ -39,4 +39,4 @@ JDBC的六大步骤
        还使用到next();的方法是ResultSet中的方法表示指针下移返回值是一个boolean类型的值
 executeQuery()和executeUpdate()操作的语言
         executeQuery():执行的是DQL  也就是select
-        executeUpdate():执行的是MDL  也就是 inset into / deleter from /Update set
+        executeUpdate():执行的是MDL  也就是 inset into / delete from /Update set
