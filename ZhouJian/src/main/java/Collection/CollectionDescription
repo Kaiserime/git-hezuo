@@ -4,3 +4,39 @@
     2、集合中存储的都是对象的内存地址，集合本身就是一个对象
     3、集合中不能存放基本的数据类型，list.add(100)这里就是自动装箱成Integer
     4、使用不同的集合等同于不同的数据结构
+    5、最终是一个Collection接口，继承Iterable,使用迭代器返回一个迭代器对象，
+        对象中有三个方法完成遍历，next(),hasNext(),remove()。
+Collection集合的继承结构图
+            interface  Iterable
+                    *
+                Collection接口：里面又Iterable返回的对象里面的方法hasNext()\next()\remove()
+            *               *
+         list接口          set接口
+
+    List :
+        ArrayList（线程不安全的，底层是一个数组存储结构）
+        LinkedList(底层是双向的链表的存储结构)
+        Vector(线程安全的)
+    Set  :
+        HashSet :底层创建的是一个HashMap
+        sortedSet（特点：无序的不可重复的，是可自动排序的）接口下的TreeSet
+  注解：  list是有序是因为list集合元素有下标，可以重复的
+         set集合是无序的，无序的，是因为元素没有下标
+
+Map集合的继承结构图
+                interface     Map
+                *            *           *
+           HashMap        HashTable        SortedMap接口
+         (线程不安全的)   （线程安全的）            *
+                              *                TreeMap
+                           properties
+     sortedSMap接口（特点：无序的不可重复的，集合的Key是可自动排序的）下的TreeMap
+
+Collection的方法
+    1、add()
+    2、remove()
+    3、clear()
+    4、toArray()
+    5、contain()
+    6、isEmpty()
+    7、size()
