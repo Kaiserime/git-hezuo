@@ -40,3 +40,6 @@ Collection的方法
     5、contain()
     6、isEmpty()
     7、size()
+使用迭代器对集合进行遍历
+    while 循环加 hasNext方法 和 next方法返回的
+深入学习contain方法和remove（迭代器中的）方法
