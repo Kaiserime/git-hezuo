@@ -43,3 +43,14 @@ Collection的方法
 使用迭代器对集合进行遍历
     while 循环加 hasNext方法 和 next方法返回的
 深入学习contain方法和remove（迭代器中的）方法
+    使用remove的时候要使用迭代器去调用，不然就会报错误。是因为使用集合去移除的时候集合中的元素被移除了，
+    参照里的元素还没被移除导致错误
+    contain方法是比较的内存地址，即使是同一个字符串在方法区内存中的内存地址是一样的，但是在堆内存中的
+    地址是不一样的。
+List中特有的方法,ArrayList中的集合初始容量为10
+    new ArrayList(20) 可以指定大小，但是没有元素的时候size（）会是0
+    get()   由此可见，可以使用此方法对集合进行遍历
+    lastIndexOf()
+    indexOf()
+    add(index,Element)
+    第二个构造方法是把Collection集合转换成ArrayList集合的

@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc387695-2a7e-413d-a249-565a4a236023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/BianLi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/CollectionList/ArrayList/KuoRong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/CollectionDescription" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/CollectionDescription" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/CollectionList/ArrayList/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/CollectionList/ArrayList/ArrayListMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/CollectionPractical/Collection01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/CollectionPractical/Collection02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/CollectionPractical/Collection03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/CollectionPractical/Collection04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/Collection05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/CollectionPractical/Collection05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZhouJian/src/main/java/CollectionPractical/CollectionIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ZhouJian/src/main/java/Collection/CollectionPractical/CollectionIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,13 +120,26 @@
       <command value="hilk" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BianLi">
+  <component name="RunManager" selected="Application.ArrayListMethods">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collection.CollectionList.A" />
       <module name="ZhouJian" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Collection.CollectionList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.CollectionList.ArrayList.ArrayListMethods" />
+      <module name="ZhouJian" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collection.CollectionList.ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +173,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Jbdc.ConnTest1.JDBCTest3" />
-      <module name="ZhouJian" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Jbdc.ConnTest1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interface.WuQiShuZu.Test" />
       <module name="ZhouJian" />
@@ -180,19 +187,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JDBCTest3" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.CollectionMethods" />
       <item itemvalue="Application.A" />
       <item itemvalue="Application.BianLi" />
+      <item itemvalue="Application.ArrayListMethods" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListMethods" />
         <item itemvalue="Application.BianLi" />
         <item itemvalue="Application.A" />
         <item itemvalue="Application.CollectionMethods" />
         <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.JDBCTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +322,8 @@
       <workItem from="1608712436307" duration="5344000" />
       <workItem from="1608800184633" duration="12384000" />
       <workItem from="1608902224899" duration="6775000" />
-      <workItem from="1608952278590" duration="2246000" />
+      <workItem from="1608952278590" duration="2920000" />
+      <workItem from="1609074820544" duration="5713000" />
     </task>
     <task id="LOCAL-00001" summary="Day10">
       <created>1604068765360</created>
@@ -383,12 +391,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603718461965" />
-    <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608539988433">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609076038115">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="312" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1608539988433" />
     <state x="636" y="329" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1606714149357" />
-    <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606915035583" />
+    <state x="510" y="452" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609076038115" />
     <state x="817" y="322" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608813655446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -418,36 +426,36 @@
     </state>
     <state x="526" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607927939394" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608705302849" />
-    <state width="1144" height="183" key="GridCell.Tab.0.bottom" timestamp="1608953868378">
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1609078052843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1288" height="314" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608823502251" />
     <state width="676" height="104" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1144" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608953868378" />
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609078052843" />
     <state width="842" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
-    <state width="1144" height="183" key="GridCell.Tab.0.center" timestamp="1608953868378">
+    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1609078052842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1288" height="314" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608823502251" />
     <state width="676" height="104" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606727064382" />
-    <state width="1144" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608953868378" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609078052842" />
     <state width="842" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1144" height="183" key="GridCell.Tab.0.left" timestamp="1608953868375">
+    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1609078052841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1288" height="314" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608823502250" />
     <state width="676" height="104" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606727064381" />
-    <state width="1144" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608953868375" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609078052841" />
     <state width="842" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935788" />
     <state width="1367" height="209" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1607777768717" />
-    <state width="1144" height="183" key="GridCell.Tab.0.right" timestamp="1608953868378">
+    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1609078052842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1288" height="314" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608823502251" />
     <state width="676" height="104" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606727064383" />
-    <state width="1144" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608953868378" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609078052842" />
     <state width="842" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605708935789" />
     <state width="1367" height="209" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1607777768718" />
     <state width="1877" height="656" key="GridCell.Tab.1.bottom" timestamp="1608308722076">

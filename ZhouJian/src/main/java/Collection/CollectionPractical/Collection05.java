@@ -1,6 +1,5 @@
-package CollectionPractical;
+package Collection.CollectionPractical;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collection;
 

@@ -1,8 +1,7 @@
-package CollectionPractical;
+package Collection.CollectionPractical;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
 /**
  * @ClassName Collection04
